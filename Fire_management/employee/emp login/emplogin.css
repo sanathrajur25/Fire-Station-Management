@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    height: 140px;
+    width: 100%;
+    padding: 0 8%;
+    background: white;
+    position:relative;
+    z-index: 12; 
+    font-family: 'Nunito', sans-serif;  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Nunito', sans-serif;
+}
+.logo{
+    width: 140px;
+}
+.nav-links{
+    padding: 28px 0;   
+    font-family: 'Nunito', sans-serif; 
+}
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-links li a{
+    text-decoration: none;
+    color:black;
+    padding :20px 0; 
+    position: relative;
+    font-family: 'Nunito', sans-serif;
+}
+.nav-links li a::after{
+    content: "";
+    background: rgba(2, 8, 81, 0.804);
+    width:0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width  0.5s;
+}
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+
+.inp{
+    padding:4px 10px;
+    border-radius: 8px;
+    border-color: black;
+    font-weight: bolder;
+    border-style: solid black;
+    border-style: groove;
+    
+}
+ .txt{
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+.but{
+    color: white;
+    background-color: black;
+    padding: 6px 60px;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+}
+body{
+    position: relative;
+    min-height: 100%;
+    width:auto;
+    overflow-x: hidden;
+    overflow-y:visible;
+    font-family: 'Nunito', sans-serif;
+    background-image: url('forlog3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 50% 50%;
+}
+.container{
+    
+    
+    margin-left: 500px;
+  width: 1484px;
+  background: rgba(2, 8, 81, 0.804);
+  padding: 100px 200px;
+  margin: 20px;
+}
+.foot{
+    background: rgba(2, 8, 81, 0.804);
+    height: 30vh;
+}
+.h5us{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    padding: 20x;
+    font-size: 15px;
+}
+.h2us{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
